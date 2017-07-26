@@ -1,0 +1,49 @@
+{
+  "_class": "group",
+  "do_objectID": "4DAE0BAB-6A77-43B6-B4AC-D0CD74E9DEAC",
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 2,
+    "width": 2,
+    "x": 0,
+    "y": 0
+  },
+  "hasClickThrough": false,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 0,
+  "layers": [
+    {
+      "class": "shapeGroup",
+      "id": "A94AC3E9-2156-46A6-AFAB-E6A66F77AA5F"
+    },
+    {
+      "class": "shapeGroup",
+      "id": "E028E81C-47D6-4EEA-80A0-623A6CEBCB7D"
+    }
+  ],
+  "name": "top-foldguide-triangle",
+  "nameIsFixed": true,
+  "resizingConstraint": 63,
+  "resizingType": 0,
+  "rotation": 0,
+  "shouldBreakMaskChain": false,
+  "style": {
+    "_class": "style",
+    "endDecorationType": 0,
+    "miterLimit": 10,
+    "startDecorationType": 0
+  }
+}

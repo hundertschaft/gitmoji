@@ -1,0 +1,57 @@
+{
+  "_class": "group",
+  "do_objectID": "6B93BE91-72F5-44AB-BDB2-8F82B4D6A290",
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 594,
+    "width": 2,
+    "x": 0,
+    "y": 0
+  },
+  "hasClickThrough": false,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 0,
+  "layers": [
+    {
+      "class": "group",
+      "id": "3437BF77-1A35-43BC-AAE2-A87793B003B7"
+    },
+    {
+      "class": "shapeGroup",
+      "id": "DE0644D4-B549-4E55-8C73-84D38568516C"
+    },
+    {
+      "class": "shapeGroup",
+      "id": "BDB1BB2A-7F2A-41C0-840D-541639F5D6B8"
+    },
+    {
+      "class": "group",
+      "id": "4DAE0BAB-6A77-43B6-B4AC-D0CD74E9DEAC"
+    }
+  ],
+  "name": "foldguides",
+  "nameIsFixed": true,
+  "resizingConstraint": 63,
+  "resizingType": 0,
+  "rotation": 0,
+  "shouldBreakMaskChain": false,
+  "style": {
+    "_class": "style",
+    "endDecorationType": 0,
+    "miterLimit": 10,
+    "startDecorationType": 0
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "_class": "group",
+  "do_objectID": "E82ADDE3-3DB2-42E6-97DE-AC8C6EC554F4",
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 15,
+    "width": 95,
+    "x": 0,
+    "y": 0
+  },
+  "hasClickThrough": false,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 2,
+  "layers": [
+    {
+      "class": "shapeGroup",
+      "id": "64AFD72D-2263-4912-95C1-A178ECC2252F"
+    },
+    {
+      "class": "shapeGroup",
+      "id": "DEB412B7-6458-4828-B15E-F61389DF0765"
+    },
+    {
+      "class": "text",
+      "id": "48BC7C4C-2424-4DA4-B199-15FA98863C68"
+    },
+    {
+      "class": "text",
+      "id": "A8B79361-52DE-44EA-839F-9ADF241FF2C0"
+    },
+    {
+      "class": "text",
+      "id": "E08414BB-BDDF-4C42-91B6-85CB33E06FC1"
+    }
+  ],
+  "name": "gitmoji-medium",
+  "nameIsFixed": true,
+  "resizingConstraint": 63,
+  "resizingType": 0,
+  "rotation": 0,
+  "shouldBreakMaskChain": false,
+  "style": {
+    "_class": "style",
+    "endDecorationType": 0,
+    "miterLimit": 10,
+    "startDecorationType": 0
+  }
+}
