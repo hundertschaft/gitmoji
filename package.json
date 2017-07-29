@@ -1,0 +1,24 @@
+{
+  "name": "gitmoji.com",
+  "version": "1.0.1",
+  "description": "Gitmoji Triangle — More than a Github Emoji Cheat Sheet!",
+  "repository": "shoplinksys/gitmoji",
+  "bugs": "https://github.com/shoplinksys/gitmoji/issues",
+  "homepage": "http://gitmoji.com",
+  "scripts": {
+    "dev": "concurrently \"tsc --watch\" next",
+    "build": "next build && next export -o docs && echo 'gitmoji.com' > ./docs/CNAME",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "beta",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.17",
+    "@types/react": "^15.6.0",
+    "concurrently": "^3.5.0",
+    "typescript": "^2.4.2"
+  }
+}

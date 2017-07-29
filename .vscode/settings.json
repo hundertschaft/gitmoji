@@ -1,0 +1,18 @@
+// Gitmoji specific .vscode settings.
+// Hiding generated .js from .ts(x) files until next.js has a propper typescript
+// load workflow.
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/*.js": {
+      "when": "$(basename).ts"
+    },
+    "**/**.js": {
+      "when": "$(basename).tsx"
+    }
+  }
+}

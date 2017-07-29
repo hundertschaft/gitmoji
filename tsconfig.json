@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "es2015",
+        "target": "es2017",
+        "jsx": "react-native",
+        "moduleResolution": "node",
+        "removeComments": false,
+        "lib": [
+            "dom",
+            "es2017"
+        ]
+    }
+}
