@@ -2,9 +2,18 @@
     "compilerOptions": {
         "module": "es2015",
         "target": "es2017",
-        "jsx": "react-native",
+        "jsx": "react",
         "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "allowJs": true,
+        "preserveConstEnums": true,
+        "noUnusedParameters": false,
+        "noUnusedLocals": true,
         "removeComments": false,
+        "baseUrl": ".",
+        "typeRoots": [
+            "./node_modules/@types"
+        ],
         "lib": [
             "dom",
             "es2017"

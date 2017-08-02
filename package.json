@@ -6,14 +6,15 @@
   "bugs": "https://github.com/shoplinksys/gitmoji/issues",
   "homepage": "http://gitmoji.com",
   "scripts": {
-    "dev": "concurrently \"tsc --watch\" next",
+    "dev": "concurrently \"tsc --pretty --watch > /dev/null \" next",
     "build": "next build && next export -o docs && echo 'gitmoji.com' > ./docs/CNAME",
     "start": "next start"
   },
   "dependencies": {
     "next": "beta",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "rebass": "^1.0.3"
   },
   "devDependencies": {
     "@types/node": "^8.0.17",
