@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="864px" height="780px" viewBox="0 0 864 780" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>preview/triangle-radiation</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="preview/triangle-radiation" stroke-width="1.1" stroke="#FFFFFF">
+            <g id="triangle-radiation" transform="translate(-5.000000, 0.000000)">
+                <g id="triangle-vector">
+                    <g transform="translate(193.000000, 8.000000)">
+                        <polyline id="inside" points="329.234093 128.363309 363.925586 365.698391 298.239806 328.914925"></polyline>
+                        <path d="M364.26231,366.304668 L280.252094,442.686229" id="inside"></path>
+                        <path d="M1.50182272,0.583162667 L328.518536,127.564821 L328.518536,127.564821 C329.000136,127.751828 329.286698,128.248789 329.207298,128.759285 L280.468223,442.121351 L280.468223,442.121351 C280.374855,442.721647 279.81253,443.132593 279.212235,443.039226 C279.062226,443.015894 278.91867,442.961764 278.790603,442.880242 L1.11117431,266.122251 L1.11117431,266.122251 C0.794701431,265.920799 0.602717414,265.57195 0.601866009,265.1968 L0.00365632787,1.61106697 L0.00365632787,1.61106697 C0.00227757587,1.00355531 0.493645383,0.509952108 1.10115704,0.508573356 C1.23819245,0.508262353 1.3740795,0.533559557 1.50182272,0.583162667 Z" id="front"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
