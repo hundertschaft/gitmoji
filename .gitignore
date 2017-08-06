@@ -5,6 +5,9 @@
 # next.js specific
 .next
 
+# TypeScript specific
+pages/**/*.js
+
 # OSX
 .DS_Store
 
