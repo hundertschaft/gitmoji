@@ -1,0 +1,6 @@
+
+          window.__NEXT_REGISTER_PAGE('/components/FullScreenHero', function() {
+            var comp = module.exports=webpackJsonp([6],{367:function(e,n,t){e.exports=t(368)},368:function(e,n,t){"use strict";function r(e){return e&&e.__esModule?e:{default:e}}Object.defineProperty(n,"__esModule",{value:!0});var a=t(78),i=r(a),d=t(3),u=r(d),o=t(18),l=r(o),c=t(118),s=(0,i.default)(['\n  /* BG: */\n  background: url("static/assets/map.png") no-repeat fixed center, linear-gradient(-46deg, #E45454 0%, #DE4746 4%, #E16B6B 50%, #E04C4B 89%, #E17A7B 100%);\n  height: 100vh;\n  background-size: inherit;\n  overflow: hidden;\n'],['\n  /* BG: */\n  background: url("static/assets/map.png") no-repeat fixed center, linear-gradient(-46deg, #E45454 0%, #DE4746 4%, #E16B6B 50%, #E04C4B 89%, #E17A7B 100%);\n  height: 100vh;\n  background-size: inherit;\n  overflow: hidden;\n']),f=(0,l.default)(c.Flex)(s);n.default=function(e){return u.default.createElement(f,{column:!0},e.children)}}},[367]);
+            return { page: comp.default }
+          })
+        
