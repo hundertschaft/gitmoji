@@ -7,7 +7,9 @@
   "homepage": "http://gitmoji.com",
   "scripts": {
     "dev": "concurrently \"tsc --pretty --watch > /dev/null \" next",
-    "build": "tsc --pretty --listEmittedFiles; next build && next export -o docs && echo 'gitmoji.com' > ./docs/CNAME",
+    "build": "tsc --pretty --listEmittedFiles; next build && next export -o docs && echo 'gitmoji.com' > ./docs/CNAME && open ./docs/index.html",
+    "deploy": "git add docs && git commit -m '🚀 gitmoji.com' -- docs && echo -e ' ------------------------------------------------------------------------------- \n ---------- 🔍 If everything looks good, run >git push< to publish. 🔎  ---------- \n ------------------------------------------------------------------------------- '",
+    "deploy-build": "npm run build && npm run deploy",
     "start": "next start"
   },
   "dependencies": {
