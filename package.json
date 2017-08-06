@@ -7,7 +7,7 @@
   "homepage": "http://gitmoji.com",
   "scripts": {
     "dev": "concurrently \"tsc --pretty --watch > /dev/null \" next",
-    "build": "tsc --pretty --listEmittedFiles || next build && next export -o docs && echo 'gitmoji.com' > ./docs/CNAME",
+    "build": "tsc --pretty --listEmittedFiles; next build && next export -o docs && echo 'gitmoji.com' > ./docs/CNAME",
     "start": "next start"
   },
   "dependencies": {
