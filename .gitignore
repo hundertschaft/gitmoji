@@ -1,5 +1,6 @@
 # editor
 .idea
+.history
 
 # next.js specific
 .next
