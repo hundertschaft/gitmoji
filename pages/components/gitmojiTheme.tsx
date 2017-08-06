@@ -30,6 +30,7 @@ const gitmojiTheme = {
     weights: [
         200,
         400,
+        100,
     ],
     colors: {
         black: '#000',

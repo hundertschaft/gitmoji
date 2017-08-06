@@ -6,24 +6,66 @@ import {
   Flex,
   Box,
   Text,
+  ButtonOutline,
+  Image,
+  Link,
+  BackgroundImage
 } from "rebass";
 
 import styled from "styled-components";
+import FullScreenHero from "./components/FullScreenHero";
 
 const Header = styled<Heading>(Heading) `
   text-align: center;
 `;
 
+const PlainLink = styled<Link>(Link) `
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  display: inline-block;
+
+  &:hover ${PlainLink} {
+    color: white;
+    background-color: #DE4746;
+    border: solid 1px white;
+  }
+`;
+
+
 export default () => (
   <Provider theme={gitmojiTheme}>
-    <Flex align="center">
-      <Box w={1}>
-        <Header
-          py={4}
-          fontSize={[5, 6]} >
-          Welcome to the Gitmoji Triangle 🔺
+    <FullScreenHero align="center" justify="center">
+
+      <Header
+        mt={60}
+        mb={50}
+        fontSize={[3, 4]}
+        color="white" >
+        Gitmoji Triangle. Work in Progress.
         </Header>
+      <Box w={1} style={{ textAlign: "center" }} >
+        <PlainLink
+          m={20}
+          href='static/download/gitmoji-triangle-a4.pdf'
+          children='Gitmoji Triangle PDF (DIN A4)'
+          color="white"
+        />
+        <PlainLink
+          m={20}
+          href='static/download/gitmoji-triangle-us-letter.pdf'
+          children='Gitmoji Triangle PDF (US Letter)'
+          color="white"
+        />
       </Box>
-    </Flex>
+
+      <Image
+        w={1}
+        mt={20}
+        src='static/preview/gitmoji-composition-with-radiation@3x.png'
+      />
+    </FullScreenHero>
   </Provider>
 );
