@@ -1,25 +1,23 @@
 import React from "react";
 import gitmojiTheme from "./components/gitmojiTheme";
 import {
-  Provider,
-  Heading,
-  Flex,
+  BackgroundImage,
   Box,
-  Text,
   ButtonOutline,
+  Flex,
+  Heading,
   Image,
   Link,
-  BackgroundImage
+  Provider,
+  Text,
 } from "rebass";
 
 import styled from "styled-components";
 import FullScreenHero from "./components/FullScreenHero";
 
-const Header = styled<Heading>(Heading) `
-  text-align: center;
-`;
+const Header = styled<Heading>(Heading)`text-align: center;`;
 
-const PlainLink = styled<Link>(Link) `
+const PlainLink = styled<Link>(Link)`
   text-align: center;
   text-decoration: none;
   padding: 10px;
@@ -29,34 +27,28 @@ const PlainLink = styled<Link>(Link) `
 
   &:hover ${PlainLink} {
     color: white;
-    background-color: #DE4746;
+    background-color: #de4746;
     border: solid 1px white;
   }
 `;
 
-
 export default () => (
   <Provider theme={gitmojiTheme}>
     <FullScreenHero align="center" justify="center">
-
-      <Header
-        mt={60}
-        mb={50}
-        fontSize={[3, 4]}
-        color="white" >
+      <Header mt={60} mb={50} fontSize={[3, 4]} color="white">
         Gitmoji Triangle. Work in Progress.
-        </Header>
-      <Box w={1} style={{ textAlign: "center" }} >
+      </Header>
+      <Box w={1} style={{ textAlign: "center" }}>
         <PlainLink
           m={20}
-          href='static/download/gitmoji-triangle-a4.pdf'
-          children='Gitmoji Triangle PDF (DIN A4)'
+          href="static/download/gitmoji-triangle-a4.pdf"
+          children="Gitmoji Triangle PDF (DIN A4)"
           color="white"
         />
         <PlainLink
           m={20}
-          href='static/download/gitmoji-triangle-us-letter.pdf'
-          children='Gitmoji Triangle PDF (US Letter)'
+          href="static/download/gitmoji-triangle-us-letter.pdf"
+          children="Gitmoji Triangle PDF (US Letter)"
           color="white"
         />
       </Box>
@@ -64,7 +56,7 @@ export default () => (
       <Image
         w={1}
         mt={20}
-        src='static/preview/gitmoji-composition-with-radiation@3x.png'
+        src="static/preview/gitmoji-composition-with-radiation@3x.png"
       />
     </FullScreenHero>
   </Provider>

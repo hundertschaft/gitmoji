@@ -7,7 +7,8 @@
   "homepage": "http://gitmoji.com",
   "scripts": {
     "dev": "concurrently \"tsc --pretty --watch > /dev/null \" next",
-    "build": "tsc --pretty --listEmittedFiles; next build && next export -o docs && echo 'gitmoji.com' > ./docs/CNAME && open ./docs/index.html",
+    "format": "prettier --list-different --write \"pages/**/*.ts*\" \"static/**/*.(html|css)\"",
+    "build": "npm run format && tsc --pretty --listEmittedFiles; next build && next export -o docs && echo 'gitmoji.com' > ./docs/CNAME && open ./docs/index.html",
     "deploy": "git add docs && git commit -m '🚀 gitmoji.com' -- docs && echo -e ' ------------------------------------------------------------------------------- \n ---------- 🔍 If everything looks good, run >git push< to publish. 🔎  ---------- \n ------------------------------------------------------------------------------- '",
     "deploy-build": "npm run build && npm run deploy",
     "start": "next start",
@@ -25,6 +26,11 @@
     "@types/node": "^8.0.28",
     "@types/react": "^15.6.2",
     "concurrently": "^3.5.0",
+    "prettier": "^1.7.0",
     "typescript": "^2.5.2"
+  },
+  "prettier": {
+    "singleQuote": false,
+    "trailingComma": "es5"
   }
 }
