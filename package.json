@@ -14,7 +14,8 @@
     "start": "next start",
     "untrack-sketch": "git update-index --skip-worktree ./static/gitmoji-triangle.sketch",
     "track-sketch": "git update-index --no-skip-worktree ./static/gitmoji-triangle.sketch",
-    "update-sketch": "npm run track-sketch && git commit -m '🍱📦 Updating Sketchfile' ./static/gitmoji-triangle.sketch && npm run untrack-sketch"
+    "update-sketch": "npm run track-sketch && git commit -m '🍱📦 Updating Sketchfile' ./static/gitmoji-triangle.sketch && npm run untrack-sketch",
+    "precommit": "lint-staged"
   },
   "dependencies": {
     "next": "^3.2.2",
@@ -26,11 +27,21 @@
     "@types/node": "^8.0.28",
     "@types/react": "^15.6.2",
     "concurrently": "^3.5.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.2.1",
     "prettier": "^1.7.0",
+    "tslint": "^5.7.0",
+    "tslint-config-prettier": "^1.5.0",
     "typescript": "^2.5.2"
   },
   "prettier": {
     "singleQuote": false,
     "trailingComma": "es5"
+  },
+  "lint-staged": {
+    "{pages,static}/**/*.{ts,tsx,js,json,html,css}": [
+      "prettier --list-different --write",
+      "git add"
+    ]
   }
 }
