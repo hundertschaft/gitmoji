@@ -10,10 +10,13 @@ import {
   Link,
   Provider,
   Text,
+  Toolbar,
+  NavLink,
 } from "rebass";
 
 import styled from "styled-components";
 import FullScreenHero from "./components/FullScreenHero";
+import Navbar from "./components/Navbar";
 
 const Header = styled<Heading>(Heading)`text-align: center;`;
 
@@ -35,6 +38,7 @@ const PlainLink = styled<Link>(Link)`
 export default () => (
   <Provider theme={gitmojiTheme}>
     <FullScreenHero align="center" justify="center">
+      <Navbar />
       <Header mt={60} mb={50} fontSize={[3, 4]} color="white">
         Gitmoji Triangle. Work in Progress.
       </Header>
